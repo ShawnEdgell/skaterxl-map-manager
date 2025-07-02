@@ -30819,3 +30819,1720 @@ debug 2025/07/02 13:09:59 Successfully fetched 1076 maps from API.
 [APP] 2025/07/02 13:10:06 model.go:208: Update: KeyMsg received: up
 [APP] 2025/07/02 13:10:26 model.go:146: Update: Received message type: tea.WindowSizeMsg, current state: 2
 [APP] 2025/07/02 13:10:26 model.go:150: Update: WindowSizeMsg received: {Width:139 Height:67}
+[APP] 2025/07/02 13:11:08 main.go:33: Bubble Tea logging enabled!
+debug 2025/07/02 13:11:08 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/02 13:11:08 model.go:146: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/02 13:11:08 model.go:146: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/02 13:11:08 model.go:150: Update: WindowSizeMsg received: {Width:139 Height:67}
+debug 2025/07/02 13:11:08 Successfully fetched 1076 maps from API.
+[APP] 2025/07/02 13:11:08 model.go:146: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/02 13:11:08 model.go:161: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/02 13:11:08 model.go:178: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:10 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:10 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:11 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:11 model.go:208: Update: KeyMsg received: down
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:12 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:12 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:13 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:13 model.go:208: Update: KeyMsg received: up
+[APP] 2025/07/02 13:11:23 model.go:146: Update: Received message type: tea.WindowSizeMsg, current state: 2
+[APP] 2025/07/02 13:11:23 model.go:150: Update: WindowSizeMsg received: {Width:139 Height:33}
+[APP] 2025/07/02 13:11:32 model.go:146: Update: Received message type: tea.WindowSizeMsg, current state: 2
+[APP] 2025/07/02 13:11:32 model.go:150: Update: WindowSizeMsg received: {Width:139 Height:67}
+[APP] 2025/07/02 13:11:34 model.go:146: Update: Received message type: tea.WindowSizeMsg, current state: 2
+[APP] 2025/07/02 13:11:34 model.go:150: Update: WindowSizeMsg received: {Width:117 Height:57}
+[APP] 2025/07/02 13:11:34 model.go:146: Update: Received message type: tea.WindowSizeMsg, current state: 2
+[APP] 2025/07/02 13:11:34 model.go:150: Update: WindowSizeMsg received: {Width:139 Height:67}
+[APP] 2025/07/02 13:11:35 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:11:35 model.go:208: Update: KeyMsg received: tab
+[APP] 2025/07/02 13:11:35 model.go:146: Update: Received message type: tea.WindowSizeMsg, current state: 2
+[APP] 2025/07/02 13:11:35 model.go:150: Update: WindowSizeMsg received: {Width:139 Height:33}
+[APP] 2025/07/02 13:14:25 model.go:146: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:25 model.go:208: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/02 13:14:26 main.go:33: Bubble Tea logging enabled!
+debug 2025/07/02 13:14:26 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/02 13:14:26 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/02 13:14:26 model.go:186: Update: WindowSizeMsg received: {Width:139 Height:33}
+[APP] 2025/07/02 13:14:26 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+debug 2025/07/02 13:14:26 Successfully fetched 1076 maps from API.
+[APP] 2025/07/02 13:14:26 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/02 13:14:26 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/02 13:14:26 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/02 13:14:35 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:35 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:14:35 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:35 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:14:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:36 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:14:38 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:38 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:14:39 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:39 model.go:240: Update: KeyMsg received: n
+[APP] 2025/07/02 13:14:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:43 model.go:240: Update: KeyMsg received: p
+[APP] 2025/07/02 13:14:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:45 model.go:240: Update: KeyMsg received: r
+[APP] 2025/07/02 13:14:46 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:46 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:14:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:47 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:14:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:47 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:14:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:48 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:14:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:14:48 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:01 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:01 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:02 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:02 model.go:240: Update: KeyMsg received: f
+[APP] 2025/07/02 13:15:02 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:02 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:03 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:03 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:03 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:03 model.go:240: Update: KeyMsg received: f
+[APP] 2025/07/02 13:15:03 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:03 model.go:240: Update: KeyMsg received: f
+[APP] 2025/07/02 13:15:04 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:04 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:04 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:04 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:04 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:04 model.go:240: Update: KeyMsg received: f
+[APP] 2025/07/02 13:15:05 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:05 model.go:240: Update: KeyMsg received: f
+[APP] 2025/07/02 13:15:05 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:05 model.go:240: Update: KeyMsg received: g
+[APP] 2025/07/02 13:15:05 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:05 model.go:240: Update: KeyMsg received: g
+[APP] 2025/07/02 13:15:06 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:06 model.go:240: Update: KeyMsg received: h
+[APP] 2025/07/02 13:15:06 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:06 model.go:240: Update: KeyMsg received: g
+[APP] 2025/07/02 13:15:06 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:06 model.go:240: Update: KeyMsg received: f
+[APP] 2025/07/02 13:15:07 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:07 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:07 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:07 model.go:240: Update: KeyMsg received: f
+[APP] 2025/07/02 13:15:08 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:08 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:08 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:08 model.go:240: Update: KeyMsg received: f
+[APP] 2025/07/02 13:15:10 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:10 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:10 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:10 model.go:240: Update: KeyMsg received: f
+[APP] 2025/07/02 13:15:10 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:10 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:11 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:11 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:12 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:12 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:13 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:13 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:13 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:13 model.go:240: Update: KeyMsg received: a
+[APP] 2025/07/02 13:15:13 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:13 model.go:240: Update: KeyMsg received: a
+[APP] 2025/07/02 13:15:14 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:14 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:15 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:15 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:15 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:15 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:15 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:15 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:15 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:15 model.go:240: Update: KeyMsg received: a
+[APP] 2025/07/02 13:15:15 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:15 model.go:240: Update: KeyMsg received: a
+[APP] 2025/07/02 13:15:16 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:16 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:19 model.go:240: Update: KeyMsg received: w
+[APP] 2025/07/02 13:15:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:19 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:20 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:20 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:20 model.go:240: Update: KeyMsg received: d
+[APP] 2025/07/02 13:15:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:20 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:22 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:22 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:23 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:23 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:23 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:23 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:23 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:23 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:56 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:56 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:56 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:56 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:15:58 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:15:58 model.go:240: Update: KeyMsg received: n
+[APP] 2025/07/02 13:16:02 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:02 model.go:240: Update: KeyMsg received: n
+[APP] 2025/07/02 13:16:06 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:06 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:16:06 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:06 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:16:16 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:16 model.go:240: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/02 13:16:18 main.go:33: Bubble Tea logging enabled!
+debug 2025/07/02 13:16:18 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/02 13:16:18 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/02 13:16:18 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/02 13:16:18 model.go:186: Update: WindowSizeMsg received: {Width:139 Height:33}
+debug 2025/07/02 13:16:18 Successfully fetched 1076 maps from API.
+[APP] 2025/07/02 13:16:18 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/02 13:16:18 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/02 13:16:18 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/02 13:16:23 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:23 model.go:240: Update: KeyMsg received: n
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:25 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:26 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:26 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/02 13:16:26 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:26 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:27 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:28 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:28 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:28 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:28 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:28 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:28 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/02 13:16:29 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:29 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:16:31 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:31 model.go:240: Update: KeyMsg received: n
+[APP] 2025/07/02 13:16:31 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:31 model.go:240: Update: KeyMsg received: n
+[APP] 2025/07/02 13:16:32 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:32 model.go:240: Update: KeyMsg received: p
+[APP] 2025/07/02 13:16:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:36 model.go:240: Update: KeyMsg received: p
+[APP] 2025/07/02 13:16:38 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:38 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:16:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:42 model.go:240: Update: KeyMsg received: r
+[APP] 2025/07/02 13:16:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:45 model.go:240: Update: KeyMsg received: p
+[APP] 2025/07/02 13:16:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:48 model.go:240: Update: KeyMsg received: n
+[APP] 2025/07/02 13:16:55 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:16:55 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:17:00 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:00 model.go:240: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/02 13:17:02 main.go:33: Bubble Tea logging enabled!
+debug 2025/07/02 13:17:02 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/02 13:17:02 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/02 13:17:02 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/02 13:17:02 model.go:186: Update: WindowSizeMsg received: {Width:139 Height:33}
+debug 2025/07/02 13:17:02 Successfully fetched 1076 maps from API.
+[APP] 2025/07/02 13:17:02 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/02 13:17:02 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/02 13:17:02 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/02 13:17:03 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:03 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:17:04 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:04 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:17:06 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:06 model.go:240: Update: KeyMsg received: r
+[APP] 2025/07/02 13:17:08 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:08 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:17:08 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:08 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:17:08 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:08 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:17:08 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:08 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:17:08 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:08 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:17:10 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:10 model.go:240: Update: KeyMsg received: p
+[APP] 2025/07/02 13:17:11 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:17:11 model.go:240: Update: KeyMsg received: n
+[APP] 2025/07/02 13:19:16 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:16 model.go:240: Update: KeyMsg received: p
+[APP] 2025/07/02 13:19:18 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:18 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:19:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:19 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:19:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:19 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:19:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:19 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:19:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:19 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:19:22 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:22 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:19:23 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:23 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:19:23 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:23 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:19:24 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:24 model.go:240: Update: KeyMsg received: s
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:44 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:45 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:45 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:45 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:45 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:45 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:19:46 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:46 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:46 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:46 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:46 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:46 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:46 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:46 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:46 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:46 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:19:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:19:48 model.go:240: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/02 13:20:04 main.go:33: Bubble Tea logging enabled!
+debug 2025/07/02 13:20:04 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/02 13:20:04 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/02 13:20:04 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/02 13:20:04 model.go:186: Update: WindowSizeMsg received: {Width:139 Height:33}
+debug 2025/07/02 13:20:04 Successfully fetched 1076 maps from API.
+[APP] 2025/07/02 13:20:04 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/02 13:20:04 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/02 13:20:04 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/02 13:20:09 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:09 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:09 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:09 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:10 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:10 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:11 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:11 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:12 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:12 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:14 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:14 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:15 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:15 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:18 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:18 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:20:18 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:18 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:20:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:19 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:20:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:19 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:20:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:19 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:20 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:20 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:20 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:20 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:20 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:20 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:20 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:21 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:21 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:20:21 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:21 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:20:21 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:21 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:20:24 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:24 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:25 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:25 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:25 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:20:28 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:28 model.go:240: Update: KeyMsg received: p
+[APP] 2025/07/02 13:20:29 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:20:29 model.go:240: Update: KeyMsg received: b
+[APP] 2025/07/02 13:21:03 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:03 model.go:240: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/02 13:21:05 main.go:33: Bubble Tea logging enabled!
+[APP] 2025/07/02 13:21:05 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/02 13:21:05 model.go:186: Update: WindowSizeMsg received: {Width:139 Height:33}
+debug 2025/07/02 13:21:05 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/02 13:21:05 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+debug 2025/07/02 13:21:06 Successfully fetched 1076 maps from API.
+[APP] 2025/07/02 13:21:06 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/02 13:21:06 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/02 13:21:06 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/02 13:21:07 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:07 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:21:08 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:08 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:21:09 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:09 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:21:09 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:09 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:21:10 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:10 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:21:10 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:10 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:21:11 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:11 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:21:12 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:12 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:21:12 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:12 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:21:13 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:13 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:21:14 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:14 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:21:15 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:15 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:21:16 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:16 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:21:17 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:17 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:21:18 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:18 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:21:19 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:19 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:21:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:20 model.go:240: Update: KeyMsg received: 2
+[APP] 2025/07/02 13:21:21 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:21:21 model.go:240: Update: KeyMsg received: 1
+[APP] 2025/07/02 13:23:35 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:35 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:35 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:35 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:35 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:35 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:35 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:35 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:35 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:35 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: down
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:23:36 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:23:36 model.go:240: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:00 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:00 model.go:240: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/02 13:24:02 main.go:33: Bubble Tea logging enabled!
+[APP] 2025/07/02 13:24:02 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/02 13:24:02 model.go:186: Update: WindowSizeMsg received: {Width:139 Height:33}
+debug 2025/07/02 13:24:02 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/02 13:24:02 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+debug 2025/07/02 13:24:03 Successfully fetched 1076 maps from API.
+[APP] 2025/07/02 13:24:03 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/02 13:24:03 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/02 13:24:03 model.go:222: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:49 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/02 13:24:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/02 13:24:50 model.go:251: Update: KeyMsg received: ctrl+c

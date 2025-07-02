@@ -94,7 +94,15 @@ type Model struct {
 	statusMessage   string
 	skaterXLMapsDir string
 	config          *config.Config
+	sortField       string
+	sortAscending   bool
 }
+
+const (
+	sortByName        = "name"
+	sortByPopularity  = "popularity"
+	sortByRecent      = "recent"
+)
 
 // NewModel initializes the Bubble Tea model
 func NewModel(cfg *config.Config) Model {
@@ -127,8 +135,36 @@ func NewModel(cfg *config.Config) Model {
 		textInput:     ti,
 		mapList:       m,
 		config:        cfg,
+		sortField:     sortByRecent,
+		sortAscending: false,
 	}
 }
+
+// sortMaps sorts the list of maps based on the current sortField and sortAscending values.
+func (m *Model) sortMaps() {
+	sort.Slice(m.maps, func(i, j int) bool {
+		switch m.sortField {
+		case sortByName:
+			if m.sortAscending {
+				return strings.ToLower(m.maps[i].Name) < strings.ToLower(m.maps[j].Name)
+			}
+			return strings.ToLower(m.maps[i].Name) > strings.ToLower(m.maps[j].Name)
+		case sortByPopularity:
+			if m.sortAscending {
+				return m.maps[i].Stats.DownloadsTotal < m.maps[j].Stats.DownloadsTotal
+			}
+			return m.maps[i].Stats.DownloadsTotal > m.maps[j].Stats.DownloadsTotal
+		case sortByRecent:
+			if m.sortAscending {
+				return m.maps[i].DateAdded < m.maps[j].DateAdded
+			}
+			return m.maps[i].DateAdded > m.maps[j].DateAdded
+		default:
+			return false
+		}
+	})
+}
+
 
 // Init runs once at the start of the program
 func (m Model) Init() tea.Cmd {
@@ -151,19 +187,27 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		hPadding := AppStyle.GetHorizontalPadding()
 		vPadding := AppStyle.GetVerticalPadding()
 		totalNonListHeight := lipgloss.Height(TitleStyle.Render("A")) +
-                             lipgloss.Height(HelpStyle.Render("A")) +
-                             lipgloss.Height(StatusMessageStyle.Render("A")) +
-                             vPadding*2
-		m.mapList.SetSize(msg.Width - hPadding*2, msg.Height - totalNonListHeight)
+			lipgloss.Height(HelpStyle.Render("A")) +
+			lipgloss.Height(StatusMessageStyle.Render("A")) +
+			vPadding*2
+		m.mapList.SetSize(msg.Width-hPadding*2, msg.Height-totalNonListHeight)
 		m.textInput.Width = msg.Width - hPadding*2 - 4
 
 	case mapsFetchedMsg:
 		Logger.Printf("Update: mapsFetchedMsg received. Map count: %d", len(msg))
-		m.maps = msg
 
-		sort.Slice(m.maps, func(i, j int) bool {
-			return m.maps[i].DateAdded > m.maps[j].DateAdded
-		})
+		// Filter out maps with console names
+		var filteredMaps []api.Map
+		for _, m := range msg {
+			lowerCaseName := strings.ToLower(m.Name)
+			if !strings.Contains(lowerCaseName, "ps4") &&
+				!strings.Contains(lowerCaseName, "playstation") &&
+				!strings.Contains(lowerCaseName, "xbox") {
+				filteredMaps = append(filteredMaps, m)
+			}
+		}
+		m.maps = filteredMaps
+		m.sortMaps() // Initial sort
 
 		items := make([]list.Item, len(m.maps))
 		for i, mapData := range m.maps {
@@ -203,10 +247,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			Logger.Printf("Update: Install successful, transitioned to stateMapList.")
 		}
 
-
 	case tea.KeyMsg:
 		Logger.Printf("Update: KeyMsg received: %v", msg.String())
-		
+
 		// Handle global quit keys
 		switch {
 		case msg.Type == tea.KeyCtrlC:
@@ -256,9 +299,8 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 
 		case stateMapList:
-			// --- Filter functionality removed. Only basic list navigation and install remains. ---
-			switch msg.Type {
-			case tea.KeyEnter:
+			switch key := msg.String(); key {
+			case "enter":
 				selectedItem, ok := m.mapList.SelectedItem().(Item)
 				if !ok {
 					m.statusMessage = ErrorMessageStyle.Render("No map selected. Press up/down to select a map.")
@@ -268,6 +310,40 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				m.statusMessage = StatusMessageStyle.Render(fmt.Sprintf("You selected: %s. Initiating install...", selectedItem.mapData.Name))
 				m.state = stateInstalling
 				cmds = append(cmds, m.installMapCmd(selectedItem.mapData, m.skaterXLMapsDir))
+
+			case "1":
+				switch m.sortField {
+				case sortByRecent:
+					m.sortField = sortByPopularity
+					m.sortAscending = false
+				case sortByPopularity:
+					m.sortField = sortByName
+					m.sortAscending = true
+				case sortByName:
+					m.sortField = sortByRecent
+					m.sortAscending = false
+				}
+				m.sortMaps()
+				items := make([]list.Item, len(m.maps))
+				for i, mapData := range m.maps {
+					items[i] = Item{mapData: mapData}
+				}
+				m.mapList.SetItems(items)
+				m.mapList.Paginator.Page = 0
+				m.mapList.Select(0)
+				m.statusMessage = fmt.Sprintf("Sorted by %s (%s).", m.sortField, m.sortOrderString())
+
+			case "2":
+				m.sortAscending = !m.sortAscending
+				m.sortMaps()
+				items := make([]list.Item, len(m.maps))
+				for i, mapData := range m.maps {
+					items[i] = Item{mapData: mapData}
+				}
+				m.mapList.SetItems(items)
+				m.mapList.Paginator.Page = 0
+				m.mapList.Select(0)
+				m.statusMessage = fmt.Sprintf("Sorted by %s (%s).", m.sortField, m.sortOrderString())
 
 			default: // All other keys (arrows for navigation, etc.)
 				m.mapList, cmd = m.mapList.Update(msg) // List handles navigation
@@ -280,7 +356,6 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				return m, tea.Quit
 			}
 		}
-
 	}
 
 	return m, tea.Batch(cmds...)
@@ -307,10 +382,10 @@ func (m Model) View() string {
 		s.WriteString("\n\n")
 		s.WriteString(HelpStyle.Render("Press Enter to confirm, Ctrl+C to quit."))
 	case stateMapList:
-		s.WriteString(lipgloss.NewStyle().Foreground(ColorPrimary).Render(fmt.Sprintf("Found %d maps.", len(m.maps))))
+		sortOrder := m.sortOrderString()
+		s.WriteString(lipgloss.NewStyle().Foreground(ColorPrimary).Render(fmt.Sprintf("Found %d maps. Sorting by %s (%s).", len(m.maps), m.sortField, sortOrder)))
 		s.WriteString("\n\n")
-		// Simplified help text since filter is removed
-		s.WriteString(HelpStyle.Render("Use ↑/↓ to navigate, Enter to install, q to quit."))
+		s.WriteString(HelpStyle.Render("Use ↑/↓ to navigate, Enter to install, q to quit. Sort: (1) Cycle sort field, (2) Swap asc/desc."))
 		s.WriteString("\n")
 		s.WriteString(m.mapList.View())
 
@@ -356,4 +431,11 @@ func (m Model) installMapCmd(mapToInstall api.Map, installDir string) tea.Cmd {
 		}
 		return installDoneMsg{mapName: mapToInstall.Name, err: err}
 	}
+}
+
+func (m *Model) sortOrderString() string {
+	if m.sortAscending {
+		return "asc"
+	}
+	return "desc"
 }
