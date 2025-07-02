@@ -114,7 +114,7 @@ func NewModel(cfg *config.Config) Model {
 	m := list.New(nil, itemDelegate{}, 0, 0)
 	m.Title = "Skater XL Maps"
 	m.SetShowStatusBar(true)
-	m.SetFilteringEnabled(false) // REMOVED: Disable filtering entirely
+	m.SetFilteringEnabled(false)
 	m.Styles.Title = ListTitleStyle
 	m.Styles.FilterPrompt = PromptStyle // Keep style, but it won't be used
 	m.Styles.FilterCursor = lipgloss.NewStyle().Foreground(ColorAccent) // Keep style, but won't be used
@@ -173,7 +173,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 		if m.config.SkaterXLMapsDir != "" {
 			m.skaterXLMapsDir = m.config.SkaterXLMapsDir
-			m.statusMessage = fmt.Sprintf("Using saved maps directory: %s", m.skaterXLMapsDir)
+			m.statusMessage = fmt.Sprintf("Using saved maps directory.")
 			m.state = stateMapList
 			Logger.Printf("Update: Changed state to stateMapList (saved dir). Status: %s", m.statusMessage)
 		} else {
@@ -288,12 +288,11 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 // View renders the TUI
 func (m Model) View() string {
+	if m.state == stateLoadingMaps {
+		return "Loading Skater XL Maps..."
+	}
+
 	s := strings.Builder{}
-
-	s.WriteString(AsciiArt)
-
-	s.WriteString(TitleStyle.Render("Skater XL Map Manager"))
-	s.WriteString("\n\n")
 
 	var statusLine = ""
 	if m.statusMessage != "" && m.state != stateInstalling {
@@ -301,8 +300,6 @@ func (m Model) View() string {
 	}
 
 	switch m.state {
-	case stateLoadingMaps:
-		s.WriteString(lipgloss.NewStyle().Foreground(ColorPrimary).Render("Loading maps, please wait..."))
 	case statePromptDir:
 		s.WriteString(lipgloss.NewStyle().Foreground(ColorText).Render("Enter your Skater XL 'Maps' directory:"))
 		s.WriteString("\n")
@@ -310,10 +307,10 @@ func (m Model) View() string {
 		s.WriteString("\n\n")
 		s.WriteString(HelpStyle.Render("Press Enter to confirm, Ctrl+C to quit."))
 	case stateMapList:
-		s.WriteString(lipgloss.NewStyle().Foreground(ColorPrimary).Render(fmt.Sprintf("Found %d maps. Maps directory: %s", len(m.maps), m.skaterXLMapsDir)))
+		s.WriteString(lipgloss.NewStyle().Foreground(ColorPrimary).Render(fmt.Sprintf("Found %d maps.", len(m.maps))))
 		s.WriteString("\n\n")
 		// Simplified help text since filter is removed
-		s.WriteString(HelpStyle.Render("Use ↑/↓ to navigate, Enter to install, q to quit.")) 
+		s.WriteString(HelpStyle.Render("Use ↑/↓ to navigate, Enter to install, q to quit."))
 		s.WriteString("\n")
 		s.WriteString(m.mapList.View())
 

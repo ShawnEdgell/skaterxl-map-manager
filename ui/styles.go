@@ -90,14 +90,4 @@ var (
 		// Background(ColorDarkGray). // Removed: For transparent background, highlight will be just foreground
 		Bold(true)
 
-	// --- ASCII Art ---
-	AsciiArt = lipgloss.NewStyle().Foreground(ColorPrimary).Render(`
- ___ ____ _  _ ____ ____ ___ _    ____ _  _ ___
-  |  |__| |\ | |___ |__/  |  |    |___ |\ |  |
-  |  |  | | \| |___ |  \  |  |___ |___ | \|  |
-`) + lipgloss.NewStyle().Foreground(ColorAccent).Render(`
-         Skater XL Map Installer
-`) + lipgloss.NewStyle().Foreground(ColorMidGray).Render(`
-           by Shawn Edgell
-`)
-)
+	)
