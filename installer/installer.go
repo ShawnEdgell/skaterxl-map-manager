@@ -35,31 +35,50 @@ func InstallMap(mapToInstall api.Map, skaterXLMapsDir string) error {
 
 	Logger.Printf("Extracting '%s'...", mapToInstall.Name)
 
-	extractedBaseDir, err := getZipRootFolder(tempZipPath)
-	if err != nil {
-		Logger.Printf("Warning: Could not determine zip root folder, using map name for destination: %v", err)
-		extractedBaseDir = mapToInstall.Name
-	}
-    extractedBaseDir = sanitizeFilename(extractedBaseDir)
+	// Determine the final destination path for the map
+	mapDestinationDir := filepath.Join(skaterXLMapsDir, sanitizeFilename(mapToInstall.Name))
 
-
-	destinationPath := filepath.Join(skaterXLMapsDir, extractedBaseDir)
-
-	if _, err := os.Stat(destinationPath); os.IsNotExist(err) {
-		err = os.MkdirAll(destinationPath, 0755)
+	// Create the final destination directory if it doesn't exist
+	if _, err := os.Stat(mapDestinationDir); os.IsNotExist(err) {
+		err = os.MkdirAll(mapDestinationDir, 0755)
 		if err != nil {
-			return fmt.Errorf("failed to create destination directory '%s': %w", destinationPath, err)
+			return fmt.Errorf("failed to create map destination directory '%s': %w", mapDestinationDir, err)
 		}
 	} else if err != nil {
-		return fmt.Errorf("error checking destination directory '%s': %w", destinationPath, err)
+		return fmt.Errorf("error checking map destination directory '%s': %w", mapDestinationDir, err)
 	}
 
-	err = unzip(tempZipPath, destinationPath)
+	// Extract the zip file to a temporary extraction directory
+	tempExtractDir := filepath.Join(tempDir, "extracted_zip")
+	if err := os.MkdirAll(tempExtractDir, 0755); err != nil {
+		return fmt.Errorf("failed to create temporary extraction directory: %w", err)
+	}
+
+	err = unzip(tempZipPath, tempExtractDir)
 	if err != nil {
-		return fmt.Errorf("failed to extract map '%s' to '%s': %w", mapToInstall.Name, destinationPath, err)
+		return fmt.Errorf("failed to extract map '%s' to temporary location: %w", mapToInstall.Name, err)
 	}
 
-	Logger.Printf("Successfully installed '%s' to '%s'!", mapToInstall.Name, destinationPath)
+	// Check if the extracted content has a single root folder
+	singleRootFolder, err := getSingleRootFolder(tempExtractDir)
+	if err == nil && singleRootFolder != "" {
+		// If there's a single root folder, move its contents directly to the mapDestinationDir
+		Logger.Printf("Detected single root folder '%s' in zip. Moving contents to '%s'.", singleRootFolder, mapDestinationDir)
+		sourcePath := filepath.Join(tempExtractDir, singleRootFolder)
+		err = moveDirContents(sourcePath, mapDestinationDir)
+		if err != nil {
+			return fmt.Errorf("failed to move contents from single root folder: %w", err)
+		}
+	} else {
+		// Otherwise, move all extracted contents directly to the mapDestinationDir
+		Logger.Printf("No single root folder detected or error: %v. Moving all extracted contents to '%s'.", err, mapDestinationDir)
+		err = moveDirContents(tempExtractDir, mapDestinationDir)
+		if err != nil {
+			return fmt.Errorf("failed to move extracted contents: %w", err)
+		}
+	}
+
+	Logger.Printf("Successfully installed '%s' to '%s'!", mapToInstall.Name, mapDestinationDir)
 	return nil
 }
 
@@ -169,4 +188,120 @@ func sanitizeFilename(name string) string {
         name = strings.ReplaceAll(name, char, "_")
     }
     return name
+}
+
+// getSingleRootFolder checks if the extracted directory contains a single root folder.
+// Returns the name of the root folder if found, otherwise an empty string and an error.
+func getSingleRootFolder(extractedPath string) (string, error) {
+	entries, err := os.ReadDir(extractedPath)
+	if err != nil {
+		return "", fmt.Errorf("failed to read extracted directory: %w", err)
+	}
+
+	var rootFolders []string
+	for _, entry := range entries {
+		if entry.IsDir() {
+			rootFolders = append(rootFolders, entry.Name())
+		} else {
+			// If there are files directly in the root, it's not a single root folder structure
+			return "", fmt.Errorf("files found directly in extracted root")
+		}
+	}
+
+	if len(rootFolders) == 1 {
+		return rootFolders[0], nil
+	}
+	return "", fmt.Errorf("no single root folder found")
+}
+
+// moveDirContents moves all contents (files and subdirectories) from src to dest.
+// It performs a copy-then-delete operation, which is more robust across filesystems.
+func moveDirContents(src, dest string) error {
+	entries, err := os.ReadDir(src)
+	if err != nil {
+		return fmt.Errorf("failed to read source directory '%s': %w", src, err)
+	}
+
+	for _, entry := range entries {
+		srcPath := filepath.Join(src, entry.Name())
+		destPath := filepath.Join(dest, entry.Name())
+
+		if entry.IsDir() {
+			err := copyDir(srcPath, destPath)
+			if err != nil {
+				return fmt.Errorf("failed to copy directory '%s' to '%s': %w", srcPath, destPath, err)
+			}
+		} else {
+			err := copyFile(srcPath, destPath)
+			if err != nil {
+				return fmt.Errorf("failed to copy file '%s' to '%s': %w", srcPath, destPath, err)
+			}
+		}
+	}
+
+	// Remove the source directory after successful copy
+	return os.RemoveAll(src)
+}
+
+// copyFile copies a file from src to dest.
+func copyFile(src, dest string) error {
+	sourceFile, err := os.Open(src)
+	if err != nil {
+		return fmt.Errorf("failed to open source file '%s': %w", src, err)
+	}
+	defer sourceFile.Close()
+
+	destFile, err := os.Create(dest)
+	if err != nil {
+		return fmt.Errorf("failed to create destination file '%s': %w", dest, err)
+	}
+	defer destFile.Close()
+
+	_, err = io.Copy(destFile, sourceFile)
+	if err != nil {
+		return fmt.Errorf("failed to copy file contents from '%s' to '%s': %w", src, dest, err)
+	}
+
+	sourceInfo, err := os.Stat(src)
+	if err != nil {
+		return fmt.Errorf("failed to get source file info '%s': %w", src, err)
+	}
+
+	return os.Chmod(dest, sourceInfo.Mode())
+}
+
+// copyDir recursively copies a directory from src to dest.
+func copyDir(src, dest string) error {
+	sourceInfo, err := os.Stat(src)
+	if err != nil {
+		return fmt.Errorf("failed to get source directory info '%s': %w", src, err)
+	}
+
+	if err := os.MkdirAll(dest, sourceInfo.Mode()); err != nil {
+		return fmt.Errorf("failed to create destination directory '%s': %w", dest, err)
+	}
+
+	dirents, err := os.ReadDir(src)
+	if err != nil {
+		return fmt.Errorf("failed to read source directory '%s': %w", src, err)
+	}
+
+	for _, dirent := range dirents {
+		srcPath := filepath.Join(src, dirent.Name())
+		destPath := filepath.Join(dest, dirent.Name())
+
+		if dirent.IsDir() {
+			err := copyDir(srcPath, destPath)
+			if err != nil {
+				return err
+			}
+		} else {
+			err := copyFile(srcPath, destPath)
+			if err != nil {
+				return err
+			}
+		}
+	}
+
+	return nil
 }

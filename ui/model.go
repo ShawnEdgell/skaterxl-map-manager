@@ -122,7 +122,7 @@ func NewModel(cfg *config.Config) Model {
 	m := list.New(nil, itemDelegate{}, 0, 0)
 	m.Title = "Skater XL Maps"
 	m.SetShowStatusBar(true)
-	m.SetFilteringEnabled(false)
+	m.SetFilteringEnabled(true)
 	m.Styles.Title = ListTitleStyle
 	m.Styles.FilterPrompt = PromptStyle // Keep style, but it won't be used
 	m.Styles.FilterCursor = lipgloss.NewStyle().Foreground(ColorAccent) // Keep style, but won't be used
@@ -198,12 +198,12 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 		// Filter out maps with console names
 		var filteredMaps []api.Map
-		for _, m := range msg {
-			lowerCaseName := strings.ToLower(m.Name)
+		for _, mapData := range msg {
+			lowerCaseName := strings.ToLower(mapData.Name)
 			if !strings.Contains(lowerCaseName, "ps4") &&
 				!strings.Contains(lowerCaseName, "playstation") &&
 				!strings.Contains(lowerCaseName, "xbox") {
-				filteredMaps = append(filteredMaps, m)
+				filteredMaps = append(filteredMaps, mapData)
 			}
 		}
 		m.maps = filteredMaps
@@ -299,6 +299,16 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 
 		case stateMapList:
+			// Always update the list first, it handles its own filtering and navigation
+			m.mapList, cmd = m.mapList.Update(msg)
+			cmds = append(cmds, cmd)
+
+			// If the list is currently filtering, we don't want to process other keys
+			if m.mapList.FilterState() == list.Filtering {
+				return m, tea.Batch(cmds...)
+			}
+
+			// Process other keys only when not filtering
 			switch key := msg.String(); key {
 			case "enter":
 				selectedItem, ok := m.mapList.SelectedItem().(Item)
@@ -346,10 +356,8 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				m.statusMessage = fmt.Sprintf("Sorted by %s (%s).", m.sortField, m.sortOrderString())
 
 			default: // All other keys (arrows for navigation, etc.)
-				m.mapList, cmd = m.mapList.Update(msg) // List handles navigation
-				cmds = append(cmds, cmd)
+				// The list.Model.Update already handled navigation, so no further action needed here.
 			}
-
 		case stateError:
 			if msg.String() == "esc" {
 				m.state = stateExiting
@@ -385,7 +393,7 @@ func (m Model) View() string {
 		sortOrder := m.sortOrderString()
 		s.WriteString(lipgloss.NewStyle().Foreground(ColorPrimary).Render(fmt.Sprintf("Found %d maps. Sorting by %s (%s).", len(m.maps), m.sortField, sortOrder)))
 		s.WriteString("\n\n")
-		s.WriteString(HelpStyle.Render("Use ↑/↓ to navigate, Enter to install, q to quit. Sort: (1) Cycle sort field, (2) Swap asc/desc."))
+		s.WriteString(HelpStyle.Render("Use ↑/↓ to navigate, Enter to install, / to search, q to quit. Sort: (1) Cycle sort field, (2) Swap asc/desc."))
 		s.WriteString("\n")
 		s.WriteString(m.mapList.View())
 
