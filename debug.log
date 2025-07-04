@@ -33787,3 +33787,527 @@ debug 2025/07/04 00:40:10 Successfully installed 'Valenzuela Skatepark V2' to '/
 [APP] 2025/07/04 00:40:39 model.go:251: Update: KeyMsg received: ctrl+x
 [APP] 2025/07/04 00:40:39 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
 [APP] 2025/07/04 00:40:39 model.go:251: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/04 00:44:49 main.go:33: Bubble Tea logging enabled!
+debug 2025/07/04 00:44:49 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/04 00:44:49 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/04 00:44:49 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/04 00:44:49 model.go:186: Update: WindowSizeMsg received: {Width:67 Height:33}
+debug 2025/07/04 00:44:49 Successfully fetched 1076 maps from API.
+[APP] 2025/07/04 00:44:49 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/04 00:44:49 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/04 00:44:49 model.go:222: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/04 00:45:10 main.go:33: Bubble Tea logging enabled!
+debug 2025/07/04 00:45:10 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/04 00:45:10 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/04 00:45:10 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/04 00:45:10 model.go:186: Update: WindowSizeMsg received: {Width:67 Height:33}
+debug 2025/07/04 00:45:11 Successfully fetched 1076 maps from API.
+[APP] 2025/07/04 00:45:11 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/04 00:45:11 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/04 00:45:11 model.go:222: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/04 00:45:15 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:15 model.go:251: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/04 00:45:19 main.go:33: Bubble Tea logging enabled!
+debug 2025/07/04 00:45:19 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/04 00:45:19 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/04 00:45:19 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/04 00:45:19 model.go:186: Update: WindowSizeMsg received: {Width:67 Height:33}
+debug 2025/07/04 00:45:20 Successfully fetched 1076 maps from API.
+[APP] 2025/07/04 00:45:20 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/04 00:45:20 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/04 00:45:20 model.go:222: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/04 00:45:32 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:32 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:33 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:33 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:33 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:33 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:33 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:33 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:34 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:34 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:35 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:35 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:35 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:35 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:37 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:37 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:38 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:38 model.go:251: Update: KeyMsg received: 1
+[APP] 2025/07/04 00:45:40 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:40 model.go:251: Update: KeyMsg received: 1
+[APP] 2025/07/04 00:45:41 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:41 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:42 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:42 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:43 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:43 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:43 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:43 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:43 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:43 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:43 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:43 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:43 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:43 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:44 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:44 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:44 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:44 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:44 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:44 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:44 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:44 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:44 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:45 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:45 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:45 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:45 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:45 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:45 model.go:251: Update: KeyMsg received: right
+[APP] 2025/07/04 00:45:46 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:46 model.go:251: Update: KeyMsg received: left
+[APP] 2025/07/04 00:45:46 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:46 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:46 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:46 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:47 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:47 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:48 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:48 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:49 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:49 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:50 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:50 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:50 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:50 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:50 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:50 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:50 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/04 00:45:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:50 model.go:251: Update: KeyMsg received: left
+[APP] 2025/07/04 00:45:51 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:51 model.go:251: Update: KeyMsg received: left
+[APP] 2025/07/04 00:45:51 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:51 model.go:251: Update: KeyMsg received: left
+[APP] 2025/07/04 00:45:52 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:52 model.go:251: Update: KeyMsg received: left
+[APP] 2025/07/04 00:45:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:53 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:45:54 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:54 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/04 00:45:54 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:45:54 model.go:251: Update: KeyMsg received: up
+[APP] 2025/07/04 00:46:01 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:01 model.go:251: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/04 00:46:14 main.go:33: Bubble Tea logging enabled!
+[APP] 2025/07/04 00:46:14 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/04 00:46:14 model.go:186: Update: WindowSizeMsg received: {Width:67 Height:33}
+debug 2025/07/04 00:46:14 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/04 00:46:14 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+debug 2025/07/04 00:46:15 Successfully fetched 1076 maps from API.
+[APP] 2025/07/04 00:46:15 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/04 00:46:15 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/04 00:46:15 model.go:222: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/04 00:46:17 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:17 model.go:251: Update: KeyMsg received: /
+[APP] 2025/07/04 00:46:17 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:251: Update: KeyMsg received: d
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:251: Update: KeyMsg received: o
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:251: Update: KeyMsg received: n
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:251: Update: KeyMsg received: e
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:20 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:251: Update: KeyMsg received: v
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:251: Update: KeyMsg received: a
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:251: Update: KeyMsg received: n
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:21 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 2
+[APP] 2025/07/04 00:46:24 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:24 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:46:24 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:24 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:46:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:25 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:46:25 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:25 model.go:251: Update: KeyMsg received: down
+[APP] 2025/07/04 00:46:26 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:26 model.go:251: Update: KeyMsg received: /
+[APP] 2025/07/04 00:46:26 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:251: Update: KeyMsg received: d
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:251: Update: KeyMsg received: o
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:251: Update: KeyMsg received: n
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:27 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:46:27 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:28 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 2
+[APP] 2025/07/04 00:46:29 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:29 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:46:29 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:29 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 2
+[APP] 2025/07/04 00:46:30 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:30 model.go:251: Update: KeyMsg received: v
+[APP] 2025/07/04 00:46:30 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:30 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:30 model.go:251: Update: KeyMsg received: a
+[APP] 2025/07/04 00:46:30 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:30 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:31 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:31 model.go:251: Update: KeyMsg received: n
+[APP] 2025/07/04 00:46:31 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:46:31 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:46:31 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:46:31 model.go:251: Update: KeyMsg received: enter
+[APP] 2025/07/04 00:46:31 model.go:318: Update: Selected map 'Valenzuela Skatepark V2' (ID: 5055976). Preparing to install.
+[APP] 2025/07/04 00:46:31 model.go:432: Installer: Starting install for map 'Valenzuela Skatepark V2' to '/home/shawn/.steam/steam/steamapps/compatdata/962730/pfx/drive_c/users/steamuser/Documents/SkaterXL/Maps/'
+debug 2025/07/04 00:46:31 Downloading 'Valenzuela Skatepark V2' to '/tmp/skaterxl-map-download-2857829457/valenzuelaskateparkv2bychankan-03vt.zip' from URL: https://g-629.modapi.io/v1/games/629/mods/5055976/files/6520735/download
+[APP] 2025/07/04 00:46:31 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 3
+debug 2025/07/04 00:46:35 Extracting 'Valenzuela Skatepark V2'...
+debug 2025/07/04 00:46:36 Detected single root folder 'Valenzuela Skatepark V2 By Chan Kanai Art' in zip. Moving contents to '/home/shawn/.steam/steam/steamapps/compatdata/962730/pfx/drive_c/users/steamuser/Documents/SkaterXL/Maps/Valenzuela Skatepark V2'.
+debug 2025/07/04 00:46:36 Successfully installed 'Valenzuela Skatepark V2' to '/home/shawn/.steam/steam/steamapps/compatdata/962730/pfx/drive_c/users/steamuser/Documents/SkaterXL/Maps/Valenzuela Skatepark V2'!
+[APP] 2025/07/04 00:46:36 model.go:437: Installer: Successfully installed 'Valenzuela Skatepark V2'
+[APP] 2025/07/04 00:46:36 model.go:182: Update: Received message type: ui.installDoneMsg, current state: 3
+[APP] 2025/07/04 00:46:36 model.go:239: Update: installDoneMsg received: {mapName:Valenzuela Skatepark V2 err:<nil>}
+[APP] 2025/07/04 00:46:36 model.go:247: Update: Install successful, transitioned to stateMapList.
+[APP] 2025/07/04 00:48:50 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:50 model.go:251: Update: KeyMsg received: /
+[APP] 2025/07/04 00:48:50 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 2
+[APP] 2025/07/04 00:48:51 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:51 model.go:251: Update: KeyMsg received: p
+[APP] 2025/07/04 00:48:51 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:52 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:52 model.go:251: Update: KeyMsg received: -
+[APP] 2025/07/04 00:48:52 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:52 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:52 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:52 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:52 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:52 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:53 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:53 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:54 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:251: Update: KeyMsg received: p
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:251: Update: KeyMsg received: -
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:251: Update: KeyMsg received: t
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:251: Update: KeyMsg received: e
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:56 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:57 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 2
+[APP] 2025/07/04 00:48:58 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:58 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:58 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:58 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:58 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:58 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:58 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:58 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 2
+[APP] 2025/07/04 00:48:58 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:58 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:58 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:59 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:48:59 model.go:251: Update: KeyMsg received: backspace
+[APP] 2025/07/04 00:48:59 model.go:182: Update: Received message type: cursor.blinkCanceled, current state: 2
+[APP] 2025/07/04 00:48:59 model.go:182: Update: Received message type: list.FilterMatchesMsg, current state: 2
+[APP] 2025/07/04 00:48:59 model.go:182: Update: Received message type: cursor.BlinkMsg, current state: 2
+[APP] 2025/07/04 00:52:26 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:52:26 model.go:251: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/04 00:52:32 main.go:33: Bubble Tea logging enabled!
+debug 2025/07/04 00:52:32 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/04 00:52:32 model.go:182: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/04 00:52:32 model.go:182: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/04 00:52:32 model.go:186: Update: WindowSizeMsg received: {Width:67 Height:33}
+debug 2025/07/04 00:52:32 Successfully fetched 1076 maps from API.
+[APP] 2025/07/04 00:52:32 model.go:182: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/04 00:52:32 model.go:197: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/04 00:52:32 model.go:222: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/04 00:52:55 model.go:182: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:52:55 model.go:251: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/04 00:54:47 main.go:29: Bubble Tea logging enabled!
+[APP] 2025/07/04 00:54:47 model.go:172: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/04 00:54:47 model.go:172: Update: Received message type: tea.WindowSizeMsg, current state: 0
+debug 2025/07/04 00:54:47 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/04 00:54:47 model.go:176: Update: WindowSizeMsg received: {Width:67 Height:33}
+debug 2025/07/04 00:54:47 Successfully fetched 1076 maps from API.
+[APP] 2025/07/04 00:54:47 model.go:172: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/04 00:54:47 model.go:187: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/04 00:54:47 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/04 00:54:53 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:54:53 model.go:240: Update: KeyMsg received: esc
+[APP] 2025/07/04 00:56:09 main.go:29: Bubble Tea logging enabled!
+[APP] 2025/07/04 00:56:09 model.go:172: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/04 00:56:09 model.go:176: Update: WindowSizeMsg received: {Width:67 Height:33}
+debug 2025/07/04 00:56:09 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/04 00:56:09 model.go:172: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+debug 2025/07/04 00:56:10 Successfully fetched 1076 maps from API.
+[APP] 2025/07/04 00:56:10 model.go:172: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/04 00:56:10 model.go:187: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/04 00:56:10 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/04 00:56:11 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 00:56:11 model.go:240: Update: KeyMsg received: esc

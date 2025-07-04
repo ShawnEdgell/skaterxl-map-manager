@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/charmbracelet/bubbles/list"
-	"github.com/charmbracelet/bubbles/textinput" // Keep import as textInput is still used for directory
+	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 
@@ -18,10 +18,8 @@ import (
 	"github.com/ShawnEdgell/skaterxl-map-manager/installer"
 )
 
-// Declare a logger for this package, to be set from main.go
 var Logger *log.Logger = log.Default()
 
-// Define states for our TUI
 type appState int
 
 const (
@@ -33,7 +31,6 @@ const (
 	stateExiting
 )
 
-// Define custom messages for Bubble Tea
 type errMsg struct{ err error }
 func (e errMsg) Error() string { return e.err.Error() }
 
@@ -44,7 +41,6 @@ type installDoneMsg struct {
 	err     error
 }
 
-// Item implements list.Item for our maps
 type Item struct {
 	mapData api.Map
 }
@@ -56,7 +52,6 @@ func (i Item) Description() string {
 		i.mapData.Stats.DownloadsTotal, i.mapData.SubmittedBy.Username, i.mapData.Summary)
 }
 
-// Custom list delegate to use our styles for rendering list items
 type itemDelegate struct{}
 
 func (d itemDelegate) Height() int                             { return 1 }
@@ -84,12 +79,11 @@ func (d itemDelegate) Render(w io.Writer, m list.Model, index int, listItem list
 }
 
 
-// Model represents the state of our TUI application
 type Model struct {
 	state           appState
 	maps            []api.Map
 	mapList         list.Model
-	textInput       textinput.Model // Used for directory input
+	textInput       textinput.Model
 	currentError    error
 	statusMessage   string
 	skaterXLMapsDir string
@@ -104,10 +98,9 @@ const (
 	sortByRecent      = "recent"
 )
 
-// NewModel initializes the Bubble Tea model
 func NewModel(cfg *config.Config) Model {
 	ti := textinput.New()
-	ti.Placeholder = "/home/shawn/.steam/steam/steamapps/compatdata/962730/pfx/drive_c/users/steamuser/Documents/SkaterXL/Maps/"
+	tti.Placeholder = "~/.steam/steam/steamapps/compatdata/962730/pfx/drive_c/users/steamuser/Documents/SkaterXL/Maps/"
 	ti.Focus()
 	ti.CharLimit = 250
 	ti.Width = 80
@@ -122,10 +115,10 @@ func NewModel(cfg *config.Config) Model {
 	m := list.New(nil, itemDelegate{}, 0, 0)
 	m.Title = "Skater XL Maps"
 	m.SetShowStatusBar(true)
-	m.SetFilteringEnabled(true)
+	m.SetFilteringEnabled(false)
 	m.Styles.Title = ListTitleStyle
-	m.Styles.FilterPrompt = PromptStyle // Keep style, but it won't be used
-	m.Styles.FilterCursor = lipgloss.NewStyle().Foreground(ColorAccent) // Keep style, but won't be used
+	m.Styles.FilterPrompt = PromptStyle
+	m.Styles.FilterCursor = lipgloss.NewStyle().Foreground(ColorAccent)
 	m.Styles.StatusBar = lipgloss.NewStyle().Foreground(ColorDarkGray)
 	m.SetShowHelp(true)
 
@@ -140,7 +133,6 @@ func NewModel(cfg *config.Config) Model {
 	}
 }
 
-// sortMaps sorts the list of maps based on the current sortField and sortAscending values.
 func (m *Model) sortMaps() {
 	sort.Slice(m.maps, func(i, j int) bool {
 		switch m.sortField {
@@ -166,7 +158,6 @@ func (m *Model) sortMaps() {
 }
 
 
-// Init runs once at the start of the program
 func (m Model) Init() tea.Cmd {
 	return tea.Batch(
 		m.fetchMapsCmd(),
@@ -174,7 +165,6 @@ func (m Model) Init() tea.Cmd {
 	)
 }
 
-// Update handles messages and updates the model's state
 func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	var cmd tea.Cmd
 	var cmds []tea.Cmd
@@ -196,7 +186,6 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	case mapsFetchedMsg:
 		Logger.Printf("Update: mapsFetchedMsg received. Map count: %d", len(msg))
 
-		// Filter out maps with console names
 		var filteredMaps []api.Map
 		for _, mapData := range msg {
 			lowerCaseName := strings.ToLower(mapData.Name)
@@ -207,7 +196,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 		}
 		m.maps = filteredMaps
-		m.sortMaps() // Initial sort
+		m.sortMaps()
 
 		items := make([]list.Item, len(m.maps))
 		for i, mapData := range m.maps {
@@ -250,17 +239,15 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	case tea.KeyMsg:
 		Logger.Printf("Update: KeyMsg received: %v", msg.String())
 
-		// Handle global quit keys
 		switch {
 		case msg.Type == tea.KeyCtrlC:
 			m.state = stateExiting
 			return m, tea.Quit
-		case msg.String() == "q": // 'q' always quits from anywhere
+		case msg.String() == "q":
 			m.state = stateExiting
 			return m, tea.Quit
 		}
 
-		// Handle key presses based on current state
 		switch m.state {
 		case statePromptDir:
 			switch msg.Type {
@@ -273,11 +260,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				}
 				if _, err := os.Stat(inputPath); os.IsNotExist(err) {
 					m.statusMessage = ErrorMessageStyle.Render(fmt.Sprintf("Directory '%s' does not exist. Please enter a valid path.", inputPath))
-					Logger.Printf("Update: Invalid directory: %s", inputPath)
 					return m, nil
 				} else if err != nil {
 					m.statusMessage = ErrorMessageStyle.Render(fmt.Sprintf("Error accessing directory '%s': %v", inputPath, err))
-					Logger.Printf("Update: Directory access error: %v", err)
 					return m, nil
 				}
 
@@ -299,16 +284,6 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 
 		case stateMapList:
-			// Always update the list first, it handles its own filtering and navigation
-			m.mapList, cmd = m.mapList.Update(msg)
-			cmds = append(cmds, cmd)
-
-			// If the list is currently filtering, we don't want to process other keys
-			if m.mapList.FilterState() == list.Filtering {
-				return m, tea.Batch(cmds...)
-			}
-
-			// Process other keys only when not filtering
 			switch key := msg.String(); key {
 			case "enter":
 				selectedItem, ok := m.mapList.SelectedItem().(Item)
@@ -355,8 +330,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				m.mapList.Select(0)
 				m.statusMessage = fmt.Sprintf("Sorted by %s (%s).", m.sortField, m.sortOrderString())
 
-			default: // All other keys (arrows for navigation, etc.)
-				// The list.Model.Update already handled navigation, so no further action needed here.
+			default:
+				m.mapList, cmd = m.mapList.Update(msg)
+				cmds = append(cmds, cmd)
 			}
 		case stateError:
 			if msg.String() == "esc" {
@@ -393,7 +369,7 @@ func (m Model) View() string {
 		sortOrder := m.sortOrderString()
 		s.WriteString(lipgloss.NewStyle().Foreground(ColorPrimary).Render(fmt.Sprintf("Found %d maps. Sorting by %s (%s).", len(m.maps), m.sortField, sortOrder)))
 		s.WriteString("\n\n")
-		s.WriteString(HelpStyle.Render("Use ↑/↓ to navigate, Enter to install, / to search, q to quit. Sort: (1) Cycle sort field, (2) Swap asc/desc."))
+						s.WriteString(HelpStyle.Render("Use ↑/↓ to navigate, Enter to install, q to quit. Sort: (1) Cycle sort field, (2) Swap asc/desc."))
 		s.WriteString("\n")
 		s.WriteString(m.mapList.View())
 

@@ -33,12 +33,10 @@ func InstallMap(mapToInstall api.Map, skaterXLMapsDir string) error {
 		return fmt.Errorf("failed to download map: %w", err)
 	}
 
-	Logger.Printf("Extracting '%s'...", mapToInstall.Name)
+	Logger.Printf("Extracting '%s'...")
 
-	// Determine the final destination path for the map
 	mapDestinationDir := filepath.Join(skaterXLMapsDir, sanitizeFilename(mapToInstall.Name))
 
-	// Create the final destination directory if it doesn't exist
 	if _, err := os.Stat(mapDestinationDir); os.IsNotExist(err) {
 		err = os.MkdirAll(mapDestinationDir, 0755)
 		if err != nil {
@@ -48,7 +46,6 @@ func InstallMap(mapToInstall api.Map, skaterXLMapsDir string) error {
 		return fmt.Errorf("error checking map destination directory '%s': %w", mapDestinationDir, err)
 	}
 
-	// Extract the zip file to a temporary extraction directory
 	tempExtractDir := filepath.Join(tempDir, "extracted_zip")
 	if err := os.MkdirAll(tempExtractDir, 0755); err != nil {
 		return fmt.Errorf("failed to create temporary extraction directory: %w", err)
@@ -59,10 +56,8 @@ func InstallMap(mapToInstall api.Map, skaterXLMapsDir string) error {
 		return fmt.Errorf("failed to extract map '%s' to temporary location: %w", mapToInstall.Name, err)
 	}
 
-	// Check if the extracted content has a single root folder
 	singleRootFolder, err := getSingleRootFolder(tempExtractDir)
 	if err == nil && singleRootFolder != "" {
-		// If there's a single root folder, move its contents directly to the mapDestinationDir
 		Logger.Printf("Detected single root folder '%s' in zip. Moving contents to '%s'.", singleRootFolder, mapDestinationDir)
 		sourcePath := filepath.Join(tempExtractDir, singleRootFolder)
 		err = moveDirContents(sourcePath, mapDestinationDir)
@@ -70,7 +65,6 @@ func InstallMap(mapToInstall api.Map, skaterXLMapsDir string) error {
 			return fmt.Errorf("failed to move contents from single root folder: %w", err)
 		}
 	} else {
-		// Otherwise, move all extracted contents directly to the mapDestinationDir
 		Logger.Printf("No single root folder detected or error: %v. Moving all extracted contents to '%s'.", err, mapDestinationDir)
 		err = moveDirContents(tempExtractDir, mapDestinationDir)
 		if err != nil {
@@ -190,8 +184,6 @@ func sanitizeFilename(name string) string {
     return name
 }
 
-// getSingleRootFolder checks if the extracted directory contains a single root folder.
-// Returns the name of the root folder if found, otherwise an empty string and an error.
 func getSingleRootFolder(extractedPath string) (string, error) {
 	entries, err := os.ReadDir(extractedPath)
 	if err != nil {
@@ -203,7 +195,6 @@ func getSingleRootFolder(extractedPath string) (string, error) {
 		if entry.IsDir() {
 			rootFolders = append(rootFolders, entry.Name())
 		} else {
-			// If there are files directly in the root, it's not a single root folder structure
 			return "", fmt.Errorf("files found directly in extracted root")
 		}
 	}
@@ -214,8 +205,6 @@ func getSingleRootFolder(extractedPath string) (string, error) {
 	return "", fmt.Errorf("no single root folder found")
 }
 
-// moveDirContents moves all contents (files and subdirectories) from src to dest.
-// It performs a copy-then-delete operation, which is more robust across filesystems.
 func moveDirContents(src, dest string) error {
 	entries, err := os.ReadDir(src)
 	if err != nil {
@@ -239,11 +228,9 @@ func moveDirContents(src, dest string) error {
 		}
 	}
 
-	// Remove the source directory after successful copy
 	return os.RemoveAll(src)
 }
 
-// copyFile copies a file from src to dest.
 func copyFile(src, dest string) error {
 	sourceFile, err := os.Open(src)
 	if err != nil {
@@ -270,7 +257,6 @@ func copyFile(src, dest string) error {
 	return os.Chmod(dest, sourceInfo.Mode())
 }
 
-// copyDir recursively copies a directory from src to dest.
 func copyDir(src, dest string) error {
 	sourceInfo, err := os.Stat(src)
 	if err != nil {
