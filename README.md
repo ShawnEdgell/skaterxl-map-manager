@@ -10,10 +10,10 @@ SMM is a command-line interface (CLI) application designed to simplify the proce
 
 ## Installation
 
-To install SMM, ensure you have Go (version 1.16 or higher) installed on your system. Then, run the following command:
+To install SMM, ensure you have Go (version 1.16 or higher) installed on your system. You do not need to clone this repository. Simply run the following command from any directory:
 
 ```bash
-go install -o smm .
+go install github.com/ShawnEdgell/skaterxl-map-manager/cmd/smm
 ```
 
 This command compiles the application and places the `smm` executable in your `$GOPATH/bin` directory. Make sure `$GOPATH/bin` is added to your system's `PATH` environment variable so you can run `smm` from any directory. If you're unsure, you can typically add it by adding `export PATH=$PATH:$(go env GOPATH)/bin` to your shell's configuration file (e.g., `~/.zshrc`, `~/.bashrc`).
