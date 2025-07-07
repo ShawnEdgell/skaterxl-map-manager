@@ -15,7 +15,14 @@ import (
 
 var Logger *log.Logger = log.Default()
 
-func InstallMap(mapToInstall api.Map, skaterXLMapsDir string) error {
+type ProgressMsg struct {
+	Total    int64
+	Current  int64
+	Type     string // "download" or "extract"
+}
+
+func InstallMap(mapToInstall api.Map, skaterXLMapsDir string, progressChan chan<- ProgressMsg) error {
+	defer close(progressChan)
 	if mapToInstall.Modfile.Download.BinaryURL == "" {
 		return fmt.Errorf("no download URL found for map %s", mapToInstall.Name)
 	}
@@ -28,7 +35,9 @@ func InstallMap(mapToInstall api.Map, skaterXLMapsDir string) error {
 
 	tempZipPath := filepath.Join(tempDir, mapToInstall.Modfile.Filename)
 	Logger.Printf("Downloading '%s' to '%s' from URL: %s", mapToInstall.Name, tempZipPath, mapToInstall.Modfile.Download.BinaryURL)
-	err = downloadFile(tempZipPath, mapToInstall.Modfile.Download.BinaryURL)
+	err = downloadFile(tempZipPath, mapToInstall.Modfile.Download.BinaryURL, func(current, total int64) {
+		progressChan <- ProgressMsg{Type: "download", Current: current, Total: total}
+	})
 	if err != nil {
 		return fmt.Errorf("failed to download map: %w", err)
 	}
@@ -51,7 +60,9 @@ func InstallMap(mapToInstall api.Map, skaterXLMapsDir string) error {
 		return fmt.Errorf("failed to create temporary extraction directory: %w", err)
 	}
 
-	err = unzip(tempZipPath, tempExtractDir)
+	err = unzip(tempZipPath, tempExtractDir, func(current, total int64) {
+		progressChan <- ProgressMsg{Type: "extract", Current: current, Total: total}
+	})
 	if err != nil {
 		return fmt.Errorf("failed to extract map '%s' to temporary location: %w", mapToInstall.Name, err)
 	}
@@ -76,7 +87,9 @@ func InstallMap(mapToInstall api.Map, skaterXLMapsDir string) error {
 	return nil
 }
 
-func downloadFile(filepath string, url string) error {
+type ProgressCallback func(current, total int64)
+
+func downloadFile(filepath string, url string, progressCallback ProgressCallback) error {
 	out, err := os.Create(filepath)
 	if err != nil {
 		return err
@@ -93,11 +106,38 @@ func downloadFile(filepath string, url string) error {
 		return fmt.Errorf("bad status: %s", resp.Status)
 	}
 
-	_, err = io.Copy(out, resp.Body)
+	contentLength := resp.ContentLength
+	if contentLength == -1 {
+		Logger.Println("Content-Length not available for progress tracking.")
+	}
+
+	proxyReader := &ProgressReader{
+		Reader: resp.Body,
+		Total:  contentLength,
+		Callback: progressCallback,
+	}
+
+	_, err = io.Copy(out, proxyReader)
 	return err
 }
 
-func unzip(src, dest string) error {
+type ProgressReader struct {
+	Reader   io.Reader
+	Total    int64
+	Current  int64
+	Callback ProgressCallback
+}
+
+func (pr *ProgressReader) Read(p []byte) (n int, err error) {
+	n, err = pr.Reader.Read(p)
+	pr.Current += int64(n)
+	if pr.Callback != nil {
+		pr.Callback(pr.Current, pr.Total)
+	}
+	return
+}
+
+func unzip(src, dest string, progressCallback ProgressCallback) error {
     r, err := zip.OpenReader(src)
     if err != nil {
         return err
@@ -110,6 +150,14 @@ func unzip(src, dest string) error {
 
     os.MkdirAll(dest, 0755)
 
+    var totalSize int64
+    for _, f := range r.File {
+        if !f.FileInfo().IsDir() {
+            totalSize += int64(f.UncompressedSize64)
+        }
+    }
+
+    var extractedBytes int64
     extractAndWriteFile := func(f *zip.File) error {
         rc, err := f.Open()
         if err != nil {
@@ -130,17 +178,22 @@ func unzip(src, dest string) error {
             os.MkdirAll(path, f.Mode())
         } else {
             os.MkdirAll(filepath.Dir(path), f.Mode())
-            f, err := os.OpenFile(path, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, f.Mode())
+            outFile, err := os.OpenFile(path, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, f.Mode())
             if err != nil {
                 return err
             }
             defer func() {
-                if err := f.Close(); err != nil {
+                if err := outFile.Close(); err != nil {
                     panic(err)
                 }
             }()
 
-            _, err = io.Copy(f, rc)
+            _, err = io.Copy(outFile, io.TeeReader(rc, &ProgressWriter{Callback: func(n int64) {
+                extractedBytes += n
+                if progressCallback != nil {
+                    progressCallback(extractedBytes, totalSize)
+                }
+            }}))
             if err != nil {
                 return err
             }
@@ -155,6 +208,18 @@ func unzip(src, dest string) error {
         }
     }
     return nil
+}
+
+type ProgressWriter struct {
+    Callback func(n int64)
+}
+
+func (pw *ProgressWriter) Write(p []byte) (n int, err error) {
+    n = len(p)
+    if pw.Callback != nil {
+        pw.Callback(int64(n))
+    }
+    return n, nil
 }
 
 func getZipRootFolder(zipFilePath string) (string, error) {

@@ -1,7 +1,9 @@
 package main
 
 import (
+	"flag"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"os"
 
@@ -13,21 +15,28 @@ import (
 )
 
 var appLogger *log.Logger
+var debug = flag.Bool("debug", false, "Enable debug logging to debug.log")
 
 func main() {
+	flag.Parse()
+
 	fmt.Println("Launching Skater XL Map Manager...")
 
-	logFilePath := "debug.log"
-	logFile, err := tea.LogToFile(logFilePath, "debug")
-	if err != nil {
-		fmt.Printf("fatal: could not setup logging: %v\n", err)
-		os.Exit(1)
+	if *debug {
+		logFilePath := "debug.log"
+		logFile, err := tea.LogToFile(logFilePath, "debug")
+		if err != nil {
+			fmt.Printf("fatal: could not setup logging: %v\n", err)
+			os.Exit(1)
+		}
+		defer logFile.Close()
+		appLogger = log.New(logFile, "[APP] ", log.Ldate|log.Ltime|log.Lshortfile)
+		appLogger.Println("Bubble Tea logging enabled!")
+	} else {
+		appLogger = log.New(ioutil.Discard, "", 0) // Discard logs if not in debug mode
 	}
-	defer logFile.Close()
-
-	appLogger = log.New(logFile, "[APP] ", log.Ldate|log.Ltime|log.Lshortfile)
-	appLogger.Println("Bubble Tea logging enabled!")
 	ui.Logger = appLogger
+
 
 	cfg, err := config.LoadConfig()
 	if err != nil {

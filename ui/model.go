@@ -7,6 +7,7 @@ import (
 	"os"
 	"sort"
 	"strings"
+	"time"
 
 	"github.com/charmbracelet/bubbles/list"
 	"github.com/charmbracelet/bubbles/textinput"
@@ -35,7 +36,7 @@ type errMsg struct{ err error }
 func (e errMsg) Error() string { return e.err.Error() }
 
 type mapsFetchedMsg []api.Map
-type installProgressMsg string
+type installProgressMsg installer.ProgressMsg
 type installDoneMsg struct {
 	mapName string
 	err     error
@@ -79,6 +80,8 @@ func (d itemDelegate) Render(w io.Writer, m list.Model, index int, listItem list
 }
 
 
+type progressTickMsg struct{}
+
 type Model struct {
 	state           appState
 	maps            []api.Map
@@ -90,6 +93,8 @@ type Model struct {
 	config          *config.Config
 	sortField       string
 	sortAscending   bool
+	progressChan    chan installer.ProgressMsg
+	doneChan        chan installDoneMsg
 }
 
 const (
@@ -100,7 +105,7 @@ const (
 
 func NewModel(cfg *config.Config) Model {
 	ti := textinput.New()
-	tti.Placeholder = "~/.steam/steam/steamapps/compatdata/962730/pfx/drive_c/users/steamuser/Documents/SkaterXL/Maps/"
+	ti.Placeholder = "~/.steam/steam/steamapps/compatdata/962730/pfx/drive_c/users/steamuser/Documents/SkaterXL/Maps/"
 	ti.Focus()
 	ti.CharLimit = 250
 	ti.Width = 80
@@ -130,6 +135,8 @@ func NewModel(cfg *config.Config) Model {
 		config:        cfg,
 		sortField:     sortByRecent,
 		sortAscending: false,
+		progressChan:  make(chan installer.ProgressMsg),
+		doneChan:      make(chan installDoneMsg),
 	}
 }
 
@@ -221,8 +228,14 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		m.state = stateError
 
 	case installProgressMsg:
-		Logger.Printf("Update: installProgressMsg received: %s", string(msg))
-		m.statusMessage = StatusMessageStyle.Render(string(msg))
+		Logger.Printf("Update: installProgressMsg received: %+v", msg)
+		progress := float64(msg.Current) / float64(msg.Total) * 100
+		m.statusMessage = StatusMessageStyle.Render(fmt.Sprintf("%s Progress: %.2f%% (%d/%d bytes)", strings.Title(msg.Type), progress, msg.Current, msg.Total))
+		cmds = append(cmds, m.progressTickCmd())
+
+	case progressTickMsg:
+		// This message is sent by the ticker, re-issue the command to keep receiving updates
+		cmds = append(cmds, m.progressTickCmd())
 
 	case installDoneMsg:
 		Logger.Printf("Update: installDoneMsg received: %+v", msg)
@@ -405,15 +418,40 @@ func (m Model) fetchMapsCmd() tea.Cmd {
 }
 
 func (m Model) installMapCmd(mapToInstall api.Map, installDir string) tea.Cmd {
-	return func() tea.Msg {
-		Logger.Printf("Installer: Starting install for map '%s' to '%s'", mapToInstall.Name, installDir)
-		err := installer.InstallMap(mapToInstall, installDir)
+	// Start the installation in a goroutine
+	go func() {
+		// installer.InstallMap will send messages to m.progressChan
+		err := installer.InstallMap(mapToInstall, installDir, m.progressChan)
 		if err != nil {
 			Logger.Printf("Installer: Failed to install '%s': %v", mapToInstall.Name, err)
 		} else {
 			Logger.Printf("Installer: Successfully installed '%s'", mapToInstall.Name)
 		}
-		return installDoneMsg{mapName: mapToInstall.Name, err: err}
+		// Send a final message to indicate completion or error
+		m.doneChan <- installDoneMsg{mapName: mapToInstall.Name, err: err}
+	}()
+
+	// Return a command that continuously reads from the progress channel
+	return tea.Batch(m.progressTickCmd(), m.installDoneCmd())
+}
+
+func (m Model) progressTickCmd() tea.Cmd {
+	return tea.Tick(time.Millisecond*100, func(t time.Time) tea.Msg {
+		select {
+		case msg, ok := <-m.progressChan:
+			if !ok {
+				return nil // Channel closed, no more messages
+			}
+			return installProgressMsg(msg)
+		default:
+			return progressTickMsg{}
+		}
+	})
+}
+
+func (m Model) installDoneCmd() tea.Cmd {
+	return func() tea.Msg {
+		return <-m.doneChan
 	}
 }
 

@@ -34311,3 +34311,659 @@ debug 2025/07/04 00:56:10 Successfully fetched 1076 maps from API.
 [APP] 2025/07/04 00:56:10 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
 [APP] 2025/07/04 00:56:11 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
 [APP] 2025/07/04 00:56:11 model.go:240: Update: KeyMsg received: esc
+[APP] 2025/07/04 01:10:04 main.go:29: Bubble Tea logging enabled!
+[APP] 2025/07/04 01:10:04 model.go:172: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+debug 2025/07/04 01:10:04 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/04 01:10:04 model.go:172: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/04 01:10:04 model.go:176: Update: WindowSizeMsg received: {Width:139 Height:33}
+debug 2025/07/04 01:10:04 Successfully fetched 1076 maps from API.
+[APP] 2025/07/04 01:10:04 model.go:172: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/04 01:10:04 model.go:187: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/04 01:10:04 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/04 01:10:09 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:10:09 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/04 01:10:09 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:10:09 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/04 01:10:10 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:10:10 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/04 01:10:10 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:10:10 model.go:240: Update: KeyMsg received: right
+[APP] 2025/07/04 01:10:11 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:10:11 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/04 01:10:11 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:10:11 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/04 01:10:11 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:10:11 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/04 01:10:11 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:10:11 model.go:240: Update: KeyMsg received: left
+[APP] 2025/07/04 01:13:05 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:13:05 model.go:240: Update: KeyMsg received: ctrl+c
+[APP] 2025/07/04 01:47:10 main.go:29: Bubble Tea logging enabled!
+[APP] 2025/07/04 01:47:10 model.go:179: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/04 01:47:10 model.go:179: Update: Received message type: tea.WindowSizeMsg, current state: 0
+debug 2025/07/04 01:47:10 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/04 01:47:10 model.go:183: Update: WindowSizeMsg received: {Width:139 Height:33}
+debug 2025/07/04 01:47:10 Successfully fetched 1076 maps from API.
+[APP] 2025/07/04 01:47:10 model.go:179: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/04 01:47:10 model.go:194: Update: mapsFetchedMsg received. Map count: 1076
+[APP] 2025/07/04 01:47:10 model.go:218: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/04 01:47:13 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:13 model.go:253: Update: KeyMsg received: down
+[APP] 2025/07/04 01:47:14 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:14 model.go:253: Update: KeyMsg received: right
+[APP] 2025/07/04 01:47:14 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:14 model.go:253: Update: KeyMsg received: right
+[APP] 2025/07/04 01:47:14 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:14 model.go:253: Update: KeyMsg received: right
+[APP] 2025/07/04 01:47:14 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:14 model.go:253: Update: KeyMsg received: right
+[APP] 2025/07/04 01:47:14 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:14 model.go:253: Update: KeyMsg received: right
+[APP] 2025/07/04 01:47:15 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:15 model.go:253: Update: KeyMsg received: left
+[APP] 2025/07/04 01:47:15 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:15 model.go:253: Update: KeyMsg received: left
+[APP] 2025/07/04 01:47:15 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:15 model.go:253: Update: KeyMsg received: left
+[APP] 2025/07/04 01:47:15 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:15 model.go:253: Update: KeyMsg received: left
+[APP] 2025/07/04 01:47:15 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:15 model.go:253: Update: KeyMsg received: left
+[APP] 2025/07/04 01:47:41 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:41 model.go:253: Update: KeyMsg received: down
+[APP] 2025/07/04 01:47:42 model.go:179: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/04 01:47:42 model.go:253: Update: KeyMsg received: enter
+[APP] 2025/07/04 01:47:42 model.go:307: Update: Selected map 'Oldcastle Skatepark' (ID: 5053935). Preparing to install.
+debug 2025/07/04 01:47:42 Downloading 'Oldcastle Skatepark' to '/tmp/skaterxl-map-download-2828349082/oldcastleskatepark-a2bl.zip' from URL: https://g-629.modapi.io/v1/games/629/mods/5053935/files/6518007/download
+[APP] 2025/07/04 01:47:42 model.go:179: Update: Received message type: ui.progressTickMsg, current state: 3
+[APP] 2025/07/04 01:47:42 model.go:179: Update: Received message type: ui.progressTickMsg, current state: 3
+[APP] 2025/07/04 01:47:42 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:42 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8192 Type:download}
+[APP] 2025/07/04 01:47:42 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:42 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:40960 Type:download}
+[APP] 2025/07/04 01:47:42 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:42 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:73728 Type:download}
+[APP] 2025/07/04 01:47:42 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:42 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:106496 Type:download}
+[APP] 2025/07/04 01:47:42 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:42 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:139264 Type:download}
+[APP] 2025/07/04 01:47:42 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:42 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:172032 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:204800 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:237568 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:270336 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:303104 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:335872 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:368640 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:401408 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:434176 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:466944 Type:download}
+[APP] 2025/07/04 01:47:43 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:43 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:499712 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:532480 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:565248 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:598016 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:630784 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:663552 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:696320 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:729088 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:761856 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:794624 Type:download}
+[APP] 2025/07/04 01:47:44 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:44 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:827392 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:860160 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:892928 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:925696 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:958464 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:991232 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1024000 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1056768 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1089536 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1122304 Type:download}
+[APP] 2025/07/04 01:47:45 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:45 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1155072 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1187840 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1220608 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1253376 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1286144 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1318912 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1351680 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1384448 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1417216 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1449984 Type:download}
+[APP] 2025/07/04 01:47:46 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:46 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1482752 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1515520 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1548288 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1581056 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1613824 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1646592 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1679360 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1712128 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1744896 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1777664 Type:download}
+[APP] 2025/07/04 01:47:47 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:47 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1810432 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1843200 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1875968 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1908736 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1941504 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:1974272 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2007040 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2039808 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2072576 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2105344 Type:download}
+[APP] 2025/07/04 01:47:48 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:48 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2138112 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2170880 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2203648 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2236416 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2269184 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2301952 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2334720 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2367488 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2400256 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2433024 Type:download}
+[APP] 2025/07/04 01:47:49 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:49 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2465792 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2498560 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2531328 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2564096 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2596864 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2629632 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2662400 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2695168 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2727936 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2760704 Type:download}
+[APP] 2025/07/04 01:47:50 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:50 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2793472 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2826240 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2859008 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2891776 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2924544 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2957312 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:2990080 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3022848 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3055616 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3088384 Type:download}
+[APP] 2025/07/04 01:47:51 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:51 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3121152 Type:download}
+[APP] 2025/07/04 01:47:52 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:52 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3153920 Type:download}
+[APP] 2025/07/04 01:47:52 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:52 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3186688 Type:download}
+[APP] 2025/07/04 01:47:52 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:52 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3219456 Type:download}
+[APP] 2025/07/04 01:47:52 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:52 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3252224 Type:download}
+[APP] 2025/07/04 01:47:52 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:52 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3284992 Type:download}
+[APP] 2025/07/04 01:47:52 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:52 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3317760 Type:download}
+[APP] 2025/07/04 01:47:52 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:52 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3350528 Type:download}
+[APP] 2025/07/04 01:47:52 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:52 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3383296 Type:download}
+[APP] 2025/07/04 01:47:52 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:52 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3416064 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3448832 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3481600 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3514368 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3547136 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3579904 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3612672 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3645440 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3678208 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3710976 Type:download}
+[APP] 2025/07/04 01:47:53 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:53 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3743744 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3776512 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3809280 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3842048 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3874816 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3907584 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3940352 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:3973120 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4005888 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4038656 Type:download}
+[APP] 2025/07/04 01:47:54 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:54 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4071424 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4104192 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4136960 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4169728 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4202496 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4235264 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4268032 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4300800 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4333568 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4366336 Type:download}
+[APP] 2025/07/04 01:47:55 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:55 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4399104 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4431872 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4464640 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4497408 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4530176 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4562944 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4595712 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4628480 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4661248 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4694016 Type:download}
+[APP] 2025/07/04 01:47:56 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:56 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4726784 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4759552 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4792320 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4825088 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4857856 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4890624 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4923392 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4956160 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:4988928 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5021696 Type:download}
+[APP] 2025/07/04 01:47:57 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:57 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5054464 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5087232 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5120000 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5152768 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5185536 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5218304 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5251072 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5283840 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5316608 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5349376 Type:download}
+[APP] 2025/07/04 01:47:58 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:58 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5382144 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5414912 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5447680 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5480448 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5513216 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5545984 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5578752 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5611520 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5644288 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5677056 Type:download}
+[APP] 2025/07/04 01:47:59 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:47:59 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5709824 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5742592 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5775360 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5808128 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5840896 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5873664 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5906432 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5939200 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:5971968 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6004736 Type:download}
+[APP] 2025/07/04 01:48:00 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:00 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6037504 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6070272 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6103040 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6135808 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6168576 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6201344 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6234112 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6266880 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6299648 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6332416 Type:download}
+[APP] 2025/07/04 01:48:01 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:01 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6365184 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6397952 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6430720 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6463488 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6496256 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6529024 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6561792 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6594560 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6627328 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6660096 Type:download}
+[APP] 2025/07/04 01:48:02 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:02 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6692864 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6725632 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6758400 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6791168 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6823936 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6856704 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6889472 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6922240 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6955008 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:6987776 Type:download}
+[APP] 2025/07/04 01:48:03 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:03 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7020544 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7053312 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7086080 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7118848 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7151616 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7184384 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7217152 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7249920 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7282688 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7315456 Type:download}
+[APP] 2025/07/04 01:48:04 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:04 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7348224 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7380992 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7413760 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7446528 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7479296 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7512064 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7544832 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7577600 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7610368 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7643136 Type:download}
+[APP] 2025/07/04 01:48:05 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:05 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7675904 Type:download}
+[APP] 2025/07/04 01:48:06 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:06 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7708672 Type:download}
+[APP] 2025/07/04 01:48:06 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:06 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7741440 Type:download}
+[APP] 2025/07/04 01:48:06 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:06 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7774208 Type:download}
+[APP] 2025/07/04 01:48:06 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:06 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7806976 Type:download}
+[APP] 2025/07/04 01:48:06 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:06 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7839744 Type:download}
+[APP] 2025/07/04 01:48:06 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:06 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7872512 Type:download}
+[APP] 2025/07/04 01:48:06 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:06 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7905280 Type:download}
+[APP] 2025/07/04 01:48:06 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:06 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7938048 Type:download}
+[APP] 2025/07/04 01:48:06 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:06 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:7970816 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8003584 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8036352 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8069120 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8101888 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8134656 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8167424 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8200192 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8232960 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8265728 Type:download}
+[APP] 2025/07/04 01:48:07 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:07 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8298496 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8331264 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8364032 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8396800 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8429568 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8462336 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8495104 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8527872 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8560640 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8593408 Type:download}
+[APP] 2025/07/04 01:48:08 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:08 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8626176 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8658944 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8691712 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8724480 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8757248 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8790016 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8822784 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8855552 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8888320 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8921088 Type:download}
+[APP] 2025/07/04 01:48:09 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:09 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8953856 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:8986624 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:9019392 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:9052160 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:9084928 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:9117696 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:9150464 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:9183232 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:9216000 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:9248768 Type:download}
+[APP] 2025/07/04 01:48:10 model.go:179: Update: Received message type: ui.installProgressMsg, current state: 3
+[APP] 2025/07/04 01:48:10 model.go:231: Update: installProgressMsg received: {Total:158310010 Current:9281536 Type:download}
+[APP] 2025/07/06 23:10:29 main.go:29: Bubble Tea logging enabled!
+[APP] 2025/07/06 23:10:29 model.go:172: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/06 23:10:29 model.go:176: Update: WindowSizeMsg received: {Width:139 Height:33}
+[APP] 2025/07/06 23:10:29 model.go:172: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+debug 2025/07/06 23:10:29 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+debug 2025/07/06 23:10:29 Successfully fetched 1077 maps from API.
+[APP] 2025/07/06 23:10:29 model.go:172: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/06 23:10:29 model.go:187: Update: mapsFetchedMsg received. Map count: 1077
+[APP] 2025/07/06 23:10:29 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/06 23:10:32 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/06 23:10:32 model.go:240: Update: KeyMsg received: esc
+[APP] 2025/07/06 23:10:34 main.go:29: Bubble Tea logging enabled!
+debug 2025/07/06 23:10:34 Fetching maps from API: https://api.skatebit.app/api/v1/skaterxl/maps
+[APP] 2025/07/06 23:10:34 model.go:172: Update: Received message type: cursor.initialBlinkMsg, current state: 0
+[APP] 2025/07/06 23:10:34 model.go:172: Update: Received message type: tea.WindowSizeMsg, current state: 0
+[APP] 2025/07/06 23:10:34 model.go:176: Update: WindowSizeMsg received: {Width:139 Height:33}
+debug 2025/07/06 23:10:35 Successfully fetched 1077 maps from API.
+[APP] 2025/07/06 23:10:35 model.go:172: Update: Received message type: ui.mapsFetchedMsg, current state: 0
+[APP] 2025/07/06 23:10:35 model.go:187: Update: mapsFetchedMsg received. Map count: 1077
+[APP] 2025/07/06 23:10:35 model.go:211: Update: Changed state to stateMapList (saved dir). Status: Using saved maps directory.
+[APP] 2025/07/06 23:10:36 model.go:172: Update: Received message type: tea.KeyMsg, current state: 2
+[APP] 2025/07/06 23:10:36 model.go:240: Update: KeyMsg received: esc

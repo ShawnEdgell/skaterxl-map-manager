@@ -1,1 +1,45 @@
+# Environment variables
 .env
+
+# Log files
+debug.log
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+
+# Go binaries
+# For local builds (e.g., if you run 'go build')
+skaterxl-map-manager
+# If you build with a specific output name, add it here, e.g.:
+# myapp
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# Test results
+*.out
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# macOS specific files
+.AppleDouble
+.LSOverride
+
+# Linux specific files
+*.swp
+*.bak
+*~
