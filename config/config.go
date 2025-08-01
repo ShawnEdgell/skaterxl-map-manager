@@ -3,7 +3,7 @@ package config
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	
 	"os"
 	"path/filepath"
 )
@@ -17,11 +17,11 @@ type Config struct {
 
 // GetConfigPath returns the path to the configuration file.
 func GetConfigPath() (string, error) {
-	homeDir, err := os.UserHomeDir()
+	configDir, err := os.UserConfigDir()
 	if err != nil {
-		return "", fmt.Errorf("failed to get user home directory: %w", err)
+		return "", fmt.Errorf("failed to get user config directory: %w", err)
 	}
-	return filepath.Join(homeDir, ".config", "skaterxl-map-manager", configFileName), nil
+	return filepath.Join(configDir, "skaterxl-map-manager", configFileName), nil
 }
 
 // LoadConfig loads the configuration from the file.
@@ -31,7 +31,7 @@ func LoadConfig() (*Config, error) {
 		return nil, err
 	}
 
-	data, err := ioutil.ReadFile(configPath)
+	data, err := os.ReadFile(configPath)
 	if err != nil {
 		if os.IsNotExist(err) {
 			return &Config{}, nil // Return empty config if file doesn't exist
@@ -64,7 +64,7 @@ func SaveConfig(cfg *Config) error {
 		return fmt.Errorf("failed to marshal config: %w", err)
 	}
 
-	if err := ioutil.WriteFile(configPath, data, 0600); err != nil {
+	if err := os.WriteFile(configPath, data, 0600); err != nil {
 		return fmt.Errorf("failed to write config file: %w", err)
 	}
 	return nil

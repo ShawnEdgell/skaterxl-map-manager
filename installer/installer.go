@@ -126,13 +126,20 @@ type ProgressReader struct {
 	Total    int64
 	Current  int64
 	Callback ProgressCallback
+	lastReported int64 // New field to track last reported progress
 }
+
+const progressReportInterval = 1024 * 1024 // Report every 1MB
 
 func (pr *ProgressReader) Read(p []byte) (n int, err error) {
 	n, err = pr.Reader.Read(p)
 	pr.Current += int64(n)
-	if pr.Callback != nil {
+
+	// Only report progress if a significant amount of data has been transferred
+	// or if the download is complete.
+	if pr.Callback != nil && (pr.Current-pr.lastReported >= progressReportInterval || pr.Current == pr.Total) {
 		pr.Callback(pr.Current, pr.Total)
+		pr.lastReported = pr.Current
 	}
 	return
 }
@@ -212,12 +219,15 @@ func unzip(src, dest string, progressCallback ProgressCallback) error {
 
 type ProgressWriter struct {
     Callback func(n int64)
+    written int64
 }
 
 func (pw *ProgressWriter) Write(p []byte) (n int, err error) {
     n = len(p)
-    if pw.Callback != nil {
-        pw.Callback(int64(n))
+    pw.written += int64(n)
+    if pw.Callback != nil && (pw.written >= progressReportInterval || n == 0) { // Report every 1MB or on completion
+        pw.Callback(pw.written)
+        pw.written = 0 // Reset for next interval
     }
     return n, nil
 }

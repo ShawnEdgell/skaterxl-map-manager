@@ -5,6 +5,7 @@ import (
 	"io"
 	"log"
 	"os"
+	"path/filepath"
 	"sort"
 	"strings"
 	"time"
@@ -105,7 +106,6 @@ const (
 
 func NewModel(cfg *config.Config) Model {
 	ti := textinput.New()
-	ti.Placeholder = "~/.steam/steam/steamapps/compatdata/962730/pfx/drive_c/users/steamuser/Documents/SkaterXL/Maps/"
 	ti.Focus()
 	ti.CharLimit = 250
 	ti.Width = 80
@@ -115,6 +115,28 @@ func NewModel(cfg *config.Config) Model {
 	if cfg.SkaterXLMapsDir != "" {
 		ti.SetValue(cfg.SkaterXLMapsDir)
 		ti.CursorEnd()
+	} else {
+		homeDir, err := os.UserHomeDir()
+		if err == nil {
+			// Try standard Documents path
+			defaultMapsPath := filepath.Join(homeDir, "Documents", "SkaterXL", "Maps")
+			
+			// Try OneDrive Documents path if standard path doesn't exist
+			if _, err := os.Stat(defaultMapsPath); os.IsNotExist(err) {
+				defaultMapsPath = filepath.Join(homeDir, "OneDrive", "Documents", "SkaterXL", "Maps")
+			}
+
+			if _, err := os.Stat(defaultMapsPath); !os.IsNotExist(err) {
+				ti.SetValue(defaultMapsPath)
+				ti.CursorEnd()
+			} else {
+				ti.SetValue(`C:\Users\YourUser\Documents\SkaterXL\Maps`)
+				ti.CursorEnd()
+			}
+		} else {
+			ti.SetValue(`C:\Users\YourUser\Documents\SkaterXL\Maps`)
+			ti.CursorEnd()
+		}
 	}
 
 	m := list.New(nil, itemDelegate{}, 0, 0)

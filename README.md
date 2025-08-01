@@ -7,6 +7,7 @@ SMM is a command-line interface (CLI) application designed to simplify the proce
 *   Browse a curated list of Skater XL maps.
 *   Install maps directly to your Skater XL maps directory.
 *   Simple and intuitive terminal interface.
+*   Cross-platform support for Windows and Linux.
 
 ## Installation
 
@@ -16,7 +17,7 @@ To install SMM, ensure you have Go (version 1.16 or higher) installed on your sy
 go install github.com/ShawnEdgell/skaterxl-map-manager/cmd/smm
 ```
 
-This command compiles the application and places the `smm` executable in your `$GOPATH/bin` directory. Make sure `$GOPATH/bin` is added to your system's `PATH` environment variable so you can run `smm` from any directory. If you're unsure, you can typically add it by adding `export PATH=$PATH:$(go env GOPATH)/bin` to your shell's configuration file (e.g., `~/.zshrc`, `~/.bashrc`).
+This command compiles the application and places the `smm` executable in your Go binary directory. Make sure this directory is in your system's `PATH` environment variable so you can run `smm` from any directory.
 
 ## Usage
 
